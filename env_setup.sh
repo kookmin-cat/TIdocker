@@ -17,3 +17,6 @@ sudo apt-get -y install gdb
 sudo pip3 install OTXv2
 sudo pip3 install discord
 sudo pip3 install asyncio
+sudo pip3 install pymongo
+
+
