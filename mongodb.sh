@@ -9,4 +9,4 @@ run apt-get install -y git sudo bash make nano net-tools
 run apt-get install -y libc6:i386 libncurses5:i386 libstdc++6:i386
 workdir /tmp/setting/
 DOCKERFILE_EOF
-docker run --network my-server --name mongo_server -v /Users/j._.n3utr0n/Desktop/develop/tibot/db:/data/db -d -p 16010:27017 -e MONGO_INITDB_ROOT_USERNAME=root -e MONGO_INITDB_ROOT_PASSWORD=asdd mongo_server --auth
+docker run --network my-server --name mongo_server -v ~/private/develop/tibot/db:/data/db -d -p 16010:27017 -e MONGO_INITDB_ROOT_USERNAME=root -e MONGO_INITDB_ROOT_PASSWORD=asdd mongo_server --auth
