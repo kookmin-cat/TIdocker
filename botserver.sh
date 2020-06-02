@@ -13,4 +13,4 @@ cmd bash -i
 workdir /tmp/
 DOCKERFILE_EOF
 #docker run -it --rm --cap-add=SYS_PTRACE --security-opt seccomp=unconfined glibc223
-docker run -it --network my-server --name tidocker -v ~/private/develop:/tmp/share --privileged --cap-add=SYS_PTRACE --security-opt seccomp=unconfined tidocker
+docker run -it --network my-server --name tidocker -v /Volumes/priavte/develop/tibot/:/tmp/share --privileged --cap-add=SYS_PTRACE --security-opt seccomp=unconfined tidocker
